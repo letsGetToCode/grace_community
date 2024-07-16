@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grace Church | Login</title>
+
+	<!--Country Flags CDN-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"/>
+
+	<!--Font Awesome CDN-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!--Google Fonts CDN-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<!--General stylesheet-->
+	<link rel="stylesheet" type="text/css" href="./Style/style.css">	
+
+	<!--Login stylesheet-->
+	<link rel="stylesheet" type="text/css" href="./Style/login.css">
+
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="country__flags">
+				<li class="br__content"><span class="fi fi-br fi"></span></li>
+				<li class="en__content"><span class="fi fi-us"></span></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>	
+		<h1 class="login__title">
+			<u>Faça seu Login</u>
+		</h1>
+
+		<div class="login__apps__wrapper">
+			<p>Iniciar sessão com:</p>
+			<div class="login__apps__icons">
+				<i class="fa-brands fa-google fa-lg"><a href="#"></a></i>	
+				<i class="fa-brands fa-microsoft fa-lg"><a href="#"></a></i>
+				<i class="fa-brands fa-apple fa-lg"><a href="#"></a></i>
+				<i class="fa-brands fa-facebook fa-lg"><a href="#"></a></i>
+			</div>
+		</div>
+
+		<form>
+			<div class="email__wrapper">
+				<label for="user__nome">E-mail:</label>
+				<input type="text" name="name" placeholder="Digite o seu nome" id="user__nome">	
+			</div>
+			<div class="password__wrapper">
+				<label for="user__senha">Senha:</label>
+				<input type="password" name="user__senha" placeholder="Digite sua senha" id="user__senha">
+			</div>
+			<div>
+				<button class="login">
+					<a href="index.html">Login</a>
+				</button>
+				<button class="sign__up">
+					<a href="#">Criar conta</a>
+				</button>
+			</div>
+			<div class="forgot__password">
+				<a href="#">Esqueci o login/senha</a>
+			</div>			
+		</form>
+
+	</main>
+</body>
+</html>

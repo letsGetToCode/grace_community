@@ -1,0 +1,135 @@
+
+body {
+	max-width: 1440px;
+	height: 100dvh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+header {
+	width: 100%;
+	position: absolute;
+	top: 8px;
+}
+
+header .country__flags {
+	list-style: none;
+	display: flex;
+}
+
+.country__flags li {
+	cursor: pointer;
+	margin-right: 10px;
+}	
+
+.country__flags li:nth-last-child(2) {
+	margin-left: auto;
+}
+
+main {
+	max-width: 600px;
+	position: relative;
+	margin: 0 auto;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	border-radius: 12px;
+	padding: 24px;
+	box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 1);
+}
+
+main .login__title{
+	letter-spacing: 0.3px;
+	margin-bottom: 16px;
+}
+
+.login__apps__wrapper p {
+	font-size: 1.2rem;
+	margin-bottom: 12px;
+}
+
+.login__apps__icons {
+	width: 100%;
+}
+.login__apps__icons,
+.login__apps__icons i { 
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 16px;
+}
+
+.login__apps__icons i {
+	border: 1px solid rgba(0,0,0,0.16);
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	padding: 16px;
+	margin-right: 8px;
+	cursor: pointer;
+	transition: box-shadow 0.25s ease-in-out;
+}
+
+.login__apps__icons i:hover {
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.email__wrapper,
+.password__wrapper {
+	margin-bottom: 12px;
+}
+
+.email__wrapper input,
+.password__wrapper input {
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.16);
+	padding: 4px;
+	outline: none;
+}
+
+.email__wrapper input::placeholder,
+.password__wrapper input::placeholder {
+	font-size:  0.7rem;
+	display: flex;
+	align-items: center;
+} 
+
+.email__wrapper input:hover,
+.password__wrapper input:hover {
+	background: #ebf0f7;
+}
+
+.login, 
+.sign__up {
+	margin-bottom: 8px;
+	padding: 5px;
+	font-weight: 600;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+.login a,
+.sign__up a {
+	text-decoration: none;
+	color: black;
+}
+
+.forgot__password {
+	display: flex;
+	justify-content: center;
+	font-size: 0.8rem;	
+	margin-top: 12px;
+}
+
+.forgot__password a {
+	text-decoration: none;
+	cursor: pointer;
+	color: grey
+}
+
+.forgot__password a:hover {
+	text-decoration: underline;
+}
+
+
